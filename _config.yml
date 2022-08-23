@@ -1,0 +1,115 @@
+# Site settings
+title: ST Blog
+SEOTitle: 孙涛的博客 | ST Blog
+header-img: img/post-bg-desk.jpg
+email: saylst@163.com
+description: "Every failure is leading towards success."
+keyword: "ST, ST Blog, 孙涛的博客, suntao, 孙涛, Java, Web, iPhone，程序员，程序猿"
+url: "http://saylst.github.io"          # your host, for absolute URL
+root: /
+baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
+github_repo: "https://github.com/saylst/saylst.github.io.git" # you code repository
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "Goals determine what you going to be!"
+sidebar-avatar: img/avatar-by.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# SNS settings
+RSS: false
+weibo_username:     EverSayNever72
+github_username:    saylst
+jianshu_username:   3340a430bc0b
+twitter_username:   saylst
+
+
+
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# Disqus settings
+disqus_username: saylst
+
+# Netease setttings
+netease_comment: false
+
+
+
+
+# Analytics settings
+# Baidu Analytics
+ba_track_id: 5335d428af0f37274a25c686b03cc6a1
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "写代码，做码农，<br>骏马若凌空 终须着地行"
+sidebar-avatar: /img/st1.JPG      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+# Featured Tags
+featured-tags: true                     # 是否使用首页标签
+featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
+
+
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+
+
+# Friends
+friends: [
+    {
+        title: "新浪微博",
+        href: "http://weibo.com/2069130385/profile?topnav=1&wvr=6"
+    },{
+        title: "简书·saylst",
+        href: "http://www.jianshu.com/u/3340a430bc0b"
+    },{
+        title: "个人主页",
+        href: "http://www.stwh.club"
+    },{
+        title: "huangxuan",
+        href: "http://huangxuan.me"
+    },{
+        title: "前端神盾局",
+        href: "http://wepiaofei.github.io/blog/"
+    },{
+        title: "sunxiaobiu技术不宅",
+        href: "http://sunxiaobiu.github.io/"
+    },{
+        title: "枳",
+        href: "http://fiona23.github.io/"
+    },{
+        title: "小营子",
+        href: "http://clouddevops.xin/"
+    }
+]
