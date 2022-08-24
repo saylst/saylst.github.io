@@ -55,7 +55,13 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: saylst
+# Disqus 
+disqus:
+  enable: true
+  shortname: saylst0702    #your name
+  count: true
+
+#disqus_username: saylst
 
 # Netease setttings
 netease_comment: false
